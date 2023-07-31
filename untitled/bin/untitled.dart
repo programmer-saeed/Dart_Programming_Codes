@@ -2,23 +2,23 @@ import 'dart:io';
 
 void main()
 {
-  // var x = 10;
-  // var y = 5;
-  // var z = x + y;
-  //
-  // print("The value of z is : $z");
+  var x = 10;
+  var y = 5;
+  var z = x + y;
 
-  // var mylist = ["Dhaka","Berlin","Helshaki","Paris","Amstradram","Oslo","Delhi","Islamabad","Kabul","Tehran","Riyad",12,15.6,true];
-  //
-  // print(mylist[13]);
+  print("The value of z is : $z");
 
-    // var person = {
-    //     'Name':'Saeed',
-    //      'Age':'24',
-    //     'City':'Dhaka',
-    //   'Height':'5 feet 6 inch'
-    // };
-    // print(person['Height']);
+  var mylist = ["Dhaka","Berlin","Helshaki","Paris","Amstradram","Oslo","Delhi","Islamabad","Kabul","Tehran","Riyad",12,15.6,true];
+
+  print(mylist[13]);
+
+    var person = {
+        'Name':'Saeed',
+         'Age':'24',
+        'City':'Dhaka',
+      'Height':'5 feet 6 inch'
+    };
+    print(person['Height']);
 
   print("Hello, World");
   string fisrtname = "Kazi Saeed";
