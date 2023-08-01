@@ -24,4 +24,7 @@ void main()
   string fisrtname = "Kazi Saeed";
   string lastname = "Hossain";
   string details = "Full name = $first"
+
+  var city = ["Dhaka","Rajshahi","Barishal","Chittagong","Sylhet","Khulna"];
+
 }
