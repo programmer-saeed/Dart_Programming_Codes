@@ -1,19 +1,19 @@
 void main() {
 
-    var FirstNumber = 50;
-    print("First Number is  = $FirstNumber");
+    int firstNumber = 50;
+    print("First Number is  = $firstNumber");
 
-    var SecondNumber = 20;
-    print("Second Number is = $SecondNumber");
+    int secondNumber = 20;
+    print("Second Number is = $secondNumber");
     
     print("\n");
 
 
-    var Sum    = FirstNumber + SecondNumber;
-    var Sub    = FirstNumber - SecondNumber;
-    var Multi  = FirstNumber * SecondNumber;
-    var Div    = FirstNumber / SecondNumber;
-    var Mod    = FirstNumber % SecondNumber;
+    var Sum    = firstNumber + secondNumber;
+    var Sub    = firstNumber - secondNumber;
+    var Multi  = firstNumber * secondNumber;
+    var Div    = firstNumber / secondNumber;
+    var Mod    = firstNumber % secondNumber;
 
     print("Summation is      = $Sum");
     print("Subtraction is    = $Sub");
