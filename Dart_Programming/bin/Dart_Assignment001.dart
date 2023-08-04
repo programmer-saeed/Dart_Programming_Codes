@@ -1,7 +1,7 @@
 void main()
 {
-  const int a = 7;
-  const int b = 3;
+  const int a = 7;        //Initialize constant integer value of a is 7
+  const int b = 3;        //Initialize constant integer value of b is 3
 
   int addition = a + b;
   int subtraction = a - b;
@@ -16,6 +16,5 @@ void main()
   print("Multiplication: $a * $b = $multiplication");
   print("Division: $a / $b = $division");
   print("Modulus: $a % $b = $modulus");
-
 
 }
