@@ -14,11 +14,20 @@ void main (){
 
   studentResult.add(4.50);
   studentResult.addAll([4.25,4.33,4.39,5.00,5.06]);
+  print(studentResult);
   studentResult.remove(5.06);
+
 
   print(studentResult[4]);
   print(studentResult.first);
   print(studentResult.last);
+  print(studentResult.length);
+
+  studentResult.removeAt(3);
+  print(studentResult.length);
+  print(studentResult);
+  print(studentResult.isEmpty);
+  print(studentResult.isNotEmpty);
 
 
 }
