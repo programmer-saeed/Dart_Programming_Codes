@@ -1,7 +1,16 @@
 void main (){
 
-  var City = ["Dhaka","Sylhet","Rangpur","Rajshahi","Khulna","Barishal","Comilla","Chittagong"];
+  bool possitive = false;
+  print(possitive);
 
-  print(City[0]);
-  print(8056+7944);
+  String firstName = "Kazi ";
+  String middileName = r"Saeed$ ";
+  String lastName = "Hossain";
+  String fullName = firstName + middileName + lastName;
+
+  print(fullName);
+
+
 }
+
+
