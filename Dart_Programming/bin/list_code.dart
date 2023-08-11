@@ -5,8 +5,10 @@ void main (){
   studentList.add("Amir");
   studentList.addAll(["Shafi","Saon","Sumon","Abdul Ahad"]);
 
+
   studentList.remove("Abdul Ahad");
   print(studentList[1]);
+  print(studentList.reversed);
   print(studentList.first);
   print(studentList.last);
 
@@ -29,7 +31,11 @@ void main (){
   print(studentResult.isEmpty);
   print(studentResult.isNotEmpty);
 
+// contain collection of unique values
 
+   Set<int> number = {0,1,1,2,3,4,4,5,6,6,6,7,8,8,8,9,10,0,5,6};
+   print("Set = $number");
+   print(number.last);
 }
 
 

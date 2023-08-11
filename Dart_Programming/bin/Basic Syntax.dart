@@ -1,24 +1,28 @@
+import 'dart:io';
+
 void main() {
-
-    int firstNumber = 50;
-    print("First Number is  = $firstNumber");
-
-    int secondNumber = 20;
-    print("Second Number is = $secondNumber");
     
+    // stdout.writeln("What is your first number ?");
+    int firstNumber = 50 ;
+    print("Your First Number is  = $firstNumber");
+
+    // stdout.writeln("What is your second number ?");
+    int secondNumber = 20 ;
+    print("Your First Number is  = $secondNumber");
+
     print("\n");
 
 
-    var Sum    = firstNumber + secondNumber;
-    var Sub    = firstNumber - secondNumber;
-    var Multi  = firstNumber * secondNumber;
-    var Div    = firstNumber / secondNumber;
-    var Mod    = firstNumber % secondNumber;
+    var sum    = firstNumber + secondNumber;
+    var sub    = firstNumber - secondNumber;
+    var multi  = firstNumber * secondNumber;
+    var div    = firstNumber / secondNumber;
+    var mod    = firstNumber % secondNumber;
 
-    print("Summation is      = $Sum");
-    print("Subtraction is    = $Sub");
-    print("Multiplication is = $Multi");
-    print("Division is       = $Div");
-    print("Modulus is        = $Mod");
+    print("Summation is      = $sum");
+    print("Subtraction is    = $sub");
+    print("Multiplication is = $multi");
+    print("Division is       = $div");
+    print("Modulus is        = $mod");
  
 }
