@@ -7,17 +7,21 @@ class Person {
   Person(this.name, this.age, this.address);
 
   // Method to print a greeting
-  void sayHello() {
+  void sayHello()
+  {
     print("Hello, my name is $name.");
   }
 
   // Method to calculate age in months
-  int getAgeInMonths() {
+  int getAgeInMonths()
+  {
     return age * 12;
   }
 }
 
-void main() {
+void main()
+{
+
   String name = "Ostad"; // assign your name
   int age = 25; // assign your age
   String address = "Baridhara, Dhaka"; // assign any address
@@ -25,4 +29,5 @@ void main() {
   person.sayHello();
   int ageInMonths = person.getAgeInMonths();
   print("Age in months: $ageInMonths");
+
 }
